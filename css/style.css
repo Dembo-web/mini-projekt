@@ -27,8 +27,14 @@ h5 {
   background-color: #000;
 }
 
+.top .nav-link {
+  color: #fff;
+}
+
 .navbar-brand {
   color: #EBE044;
+  font-family: "Yellowtail", cursive;
+  font-size: 36px;
 }
 
 .splash {

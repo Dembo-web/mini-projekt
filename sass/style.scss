@@ -2,6 +2,7 @@
 
 $color-one: #EBE044;
 $color-two: #8E8E8E;
+$font-one: 'Yellowtail', cursive;
 
 .section {
   padding: 96px 0px;
@@ -31,10 +32,16 @@ h5 {
     background-position: center center;
     background-image: url('https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-color: #000;
+
+    .nav-link{
+      color: #fff;
+    }
 }
 
 .navbar-brand{
   color: $color-one;
+  font-family: $font-one;
+  font-size: 36px;
 }
 
 .splash {
