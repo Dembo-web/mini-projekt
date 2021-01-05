@@ -64,6 +64,8 @@ h5 {
       border-color: $color-one;
       width: 250px;
       height: 100px;
+      text-align: center;
+      line-height: 80px;
     }
 
     h1{
@@ -123,6 +125,10 @@ h5 {
 /* Footer */
 
 .footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   margin: 24px;
   li{
     display: inline;
