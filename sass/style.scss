@@ -13,6 +13,10 @@ $color-one: #EBE044;
     background-color: #000;
 }
 
+.navbar-brand{
+  color: $color-one;
+}
+
 .splash {
     position: absolute;
     padding-top: 40px;
@@ -25,16 +29,13 @@ $color-one: #EBE044;
     .subtitle, .title {
       color: #fff;
       }
-
-    .title{
-
-    }
-    }
+    
 
     .btn {
       background-color: $color-one;
       border-color: $color-one;
     }
+  }
 
 /* Services */
 
@@ -53,4 +54,27 @@ $color-one: #EBE044;
     border-radius: 50%;
     border-color: $color-one;
   }
+}
+
+/* Portfolio */
+
+.portfolio {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #ABABAB;
+}
+
+.portfolio .card {
+    border: none;
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-subtitle {
+    font-style: italic;
 }
