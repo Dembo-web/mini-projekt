@@ -29,13 +29,13 @@ $color-one: #EBE044;
     .subtitle, .title {
       color: #fff;
       }
-    
+    }
+
 
     .btn {
       background-color: $color-one;
       border-color: $color-one;
     }
-  }
 
 /* Services */
 
@@ -50,8 +50,8 @@ $color-one: #EBE044;
     color: $color-one;
     border: 3px solid;
     line-height: 65px;
-    width: 70px
-    border-radius: 50%;
+    width: 70px;
+    border-radius: 50px;
     border-color: $color-one;
   }
 }
