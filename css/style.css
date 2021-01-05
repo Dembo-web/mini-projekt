@@ -1,3 +1,4 @@
+/* Global */
 /* Header */
 .top {
   position: relative;
@@ -21,12 +22,28 @@
   color: #fff;
 }
 
-.splash .subtitle .title, .splash .title .title {
-  font-size: 5rem;
-}
-
-.splash .btn {
+.btn {
   background-color: #EBE044;
   border-color: #EBE044;
+}
+
+/* Services */
+.services {
+  text-align: center;
+}
+
+.services .row {
+  padding-top: 36px;
+}
+
+.services i {
+  font-size: 36px;
+  color: #EBE044;
+  margin-bottom: 20px;
+  border: 3px solid;
+  border-color: #EBE044;
+  line-height: 65px;
+  width: 70px;
+  border-radius: 50%;
 }
 /*# sourceMappingURL=style.css.map */
