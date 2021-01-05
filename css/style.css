@@ -54,6 +54,16 @@ h5 {
 .btn {
   background-color: #EBE044;
   border-color: #EBE044;
+  width: 250px;
+  height: 100px;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-style: italic;
 }
 
 /* Services */
