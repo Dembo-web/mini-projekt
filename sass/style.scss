@@ -125,11 +125,10 @@ h5 {
 /* Footer */
 
 .footer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin: 24px;
+padding: 10px 0px;
+p{
+  line-height: 65px;
+}
   li{
     display: inline;
     text-align: center;

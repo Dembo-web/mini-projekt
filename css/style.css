@@ -117,15 +117,11 @@ h2 {
 
 /* Footer */
 .footer {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center;
-  margin: 24px;
+  padding: 10px 0px;
+}
+
+.footer p {
+  line-height: 65px;
 }
 
 .footer li {
