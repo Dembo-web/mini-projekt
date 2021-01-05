@@ -1,0 +1,32 @@
+/* Header */
+.top {
+  position: relative;
+  height: 80vh;
+  background-position: center center;
+  background-image: url("https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-color: #000;
+}
+
+.splash {
+  position: absolute;
+  padding-top: 40px;
+  text-align: center;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.splash .subtitle, .splash .title {
+  color: #fff;
+}
+
+.splash .subtitle .title, .splash .title .title {
+  font-size: 5rem;
+}
+
+.splash .btn {
+  background-color: #EBE044;
+  border-color: #EBE044;
+}
+/*# sourceMappingURL=style.css.map */
